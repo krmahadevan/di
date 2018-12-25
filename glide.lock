@@ -1,0 +1,17 @@
+hash: 1c4128d0a18f4e15a6e1a2a682dcbc2c1397d21b6f14e8df7de7ca2412d03c2b
+updated: 2018-12-25T19:23:20.055058+05:30
+imports:
+- name: github.com/google/wire
+  version: 28f5930663cd2ab724e2735cc5713b490f207616
+  subpackages:
+  - cmd/wire
+- name: github.com/mattn/go-sqlite3
+  version: 6c771bb9887719704b210e87e934f08be014bdb1
+- name: github.com/uber-go/dig
+  version: 12c8adaa5e6a24ad02198588082d95582ee16e5b
+- name: go.uber.org/dig
+  version: e6a657562c3217af7c3f0ae372777484000f54bb
+  subpackages:
+  - internal/digreflect
+  - internal/dot
+testImports: []
